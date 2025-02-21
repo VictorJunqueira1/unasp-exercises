@@ -9,7 +9,8 @@ Esta pasta é dedicada ao **primeiro semestre** do curso de **Sistemas de Inform
 
 ## 📂 Estrutura da Pasta
 ```
-1semestre/ 
+1semestre/
+├── Python/ 
 ├── lista1/ 
 # Primeira lista de exercícios 
 │ ├── ex1.py 
