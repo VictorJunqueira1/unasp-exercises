@@ -8,4 +8,8 @@ room_length = float(input("Insira o comprimento da sala: "))
 floor_width = float(input("Insira a largura do piso: "))
 floor_length = float(input("Insira o comprimento do piso: "))
 
-# ... (sem resolução)
+room_area = room_width * room_length
+floor_area = floor_width * floor_length
+pieces_needed = room_area // floor_area
+
+print(f"São necessários {pieces_needed} peças de piso para revestir toda a sala.")
