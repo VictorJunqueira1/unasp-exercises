@@ -9,9 +9,9 @@ matrix = [
 
 # 1, 5, 9 -> Tem que somar esses elementos
 
-sum = 0
+diagonal_sum = 0
 
 for i in range(3):
-    sum += matrix[i][i]
+    diagonal_sum += matrix[i][i]
 
-print(f"A soma dos elementos da diagonal principal é: {sum}")
+print(f"A soma dos elementos da diagonal principal é: {diagonal_sum}")
