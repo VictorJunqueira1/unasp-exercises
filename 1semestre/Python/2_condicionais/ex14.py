@@ -5,4 +5,3 @@
 # Ou seja, usuário pode inserir apenas 0 ou 1, 5 vezes
 # E retornar o número em decimal
 
-# ... (sem resolução)
