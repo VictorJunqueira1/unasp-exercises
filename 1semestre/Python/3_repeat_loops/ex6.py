@@ -29,21 +29,21 @@ for i in range(3):
     print()
 
 # Verificar se alguém ganhou (linhas)
-vencedor = 0
+winner = 0
 
 # Verificar se alguém ganhou (colunas)
 
 # Verificar se alguém ganhou (diagonais)
 
 # Verificar se ainda há espaços vazios
-tem_espaco = False
+have_space = False
 
 # Determinar o resultado do jogo
-if vencedor == 1:
+if winner == 1:
     print("X ganhou")
-elif vencedor == 2:
+elif winner == 2:
     print("O ganhou")
-elif tem_espaco:
+elif have_space:
     print("Jogo ainda não acabou")
 else:
     print("Jogo empatado")
