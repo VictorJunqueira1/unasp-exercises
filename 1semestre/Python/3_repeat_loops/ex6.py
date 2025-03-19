@@ -30,13 +30,28 @@ for i in range(3):
 
 # Verificar se alguém ganhou (linhas)
 winner = 0
+for i in range(3):
+    if matrix[i][0] == matrix[i][1] == matrix[i][2] and matrix[i][0] != 0:
+        winner = matrix[i][0]
 
 # Verificar se alguém ganhou (colunas)
+for i in range(3):
+    if matrix[0][i] == matrix[1][i] == matrix[2][i] and matrix[0][i] != 0:
+        winner = matrix[0][i]
 
 # Verificar se alguém ganhou (diagonais)
+if matrix[0][0] == matrix[1][1] == matrix[2][2] and matrix[0][0] != 0:
+    winner = matrix[0][0]
+
+if matrix[0][2] == matrix[1][1] == matrix[2][0] and matrix[0][2] != 0:
+    winner = matrix[0][2]
 
 # Verificar se ainda há espaços vazios
 have_space = False
+for i in range(3):
+    for j in range(3):
+        if matrix[i][j] == 0:
+            have_space = True
 
 # Determinar o resultado do jogo
 if winner == 1:
