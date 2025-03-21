@@ -11,8 +11,4 @@ bit5 = int(input("Insira o quinto bit: "))
 # Se for 0, não contabiliza o bit
 
 decimal = (bit1 * 2**4) + (bit2 * 2**3) + (bit3 * 2**2) + (bit4 * 2**1) + (bit5 * 2**0)
-<<<<<<< HEAD
 print(f"O número binário {bit1}{bit2}{bit3}{bit4}{bit5} em decimal é: {decimal}")
-=======
-print(f"O número binário {bit1}{bit2}{bit3}{bit4}{bit5} em decimal é: {decimal}")
->>>>>>> refs/remotes/origin/main
