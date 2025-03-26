@@ -1,4 +1,4 @@
-# Faça um algoritmo que receba um número inteiro, 
+# 1. Faça um algoritmo que receba um número inteiro, 
 # representando uma quantidade em segundos e exiba um texto 
 # informando o total de dias, horas, minutos e segundos, quando houver um destes
 

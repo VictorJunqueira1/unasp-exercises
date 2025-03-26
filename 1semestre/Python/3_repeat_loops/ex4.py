@@ -1,4 +1,4 @@
-# Dada uma matriz de 3x3 preenchida com números inteiros 
+# 4. Dada uma matriz de 3x3 preenchida com números inteiros 
 # e imprima a soma dos elementos da diagonal principal.
 
 matrix = [

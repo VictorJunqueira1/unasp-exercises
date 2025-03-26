@@ -1,4 +1,4 @@
-# Faça um algoritmo que receba uma frase
+# 3. Faça um algoritmo que receba uma frase
 # converta cada palavra em hashtags para redes sociais, sendo que:
 # a. Deve começar com uma hashtag (#).
 # b. Todas as palavras devem ter a primeira letra maiúscula.

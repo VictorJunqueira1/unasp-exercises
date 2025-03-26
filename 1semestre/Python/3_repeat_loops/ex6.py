@@ -1,4 +1,4 @@
-# Dada uma matriz 3x3 que represente o resultado de um jogo da velha,
+# 6. Dada uma matriz 3x3 que represente o resultado de um jogo da velha,
 # mostre uma mensagem com o estado atual do jogo.
 # Usando as letras maiúsculas X e O, por exemplo:
 # [0, 0, 1],
