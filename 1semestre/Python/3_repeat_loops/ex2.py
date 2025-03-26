@@ -1,4 +1,4 @@
-# Faça um algoritmo que receba um binário 
+# 2. Faça um algoritmo que receba um binário 
 # e converta o valor em um número inteiro.
 
 binario = input("Insira um número binário: ")
