@@ -2,34 +2,34 @@
 # representando uma quantidade em segundos e exiba um texto 
 # informando o total de dias, horas, minutos e segundos, quando houver um destes
 
-segundos = int(input("Digite a quantidade de segundos: "))
+seconds = int(input("Digite a quantidade de seconds: "))
 
-dias = segundos // 86400
-segundos %= 86400
-horas = segundos // 3600
-segundos %= 3600
-minutos = segundos // 60
-segundos %= 60
+days = seconds // 86400
+seconds %= 86400
+hours = seconds // 3600
+seconds %= 3600
+minutes = seconds // 60
+seconds %= 60
 
-partes = []
+parts = []
 
-if dias > 0:
-    partes.append(f"{dias} dia{'s' if dias > 1 else ''}")
-if horas > 0:
-    partes.append(f"{horas} hora{'s' if horas > 1 else ''}")
-if minutos > 0:
-    partes.append(f"{minutos} minuto{'s' if minutos > 1 else ''}")
-if segundos > 0 or not partes:
-    partes.append(f"{segundos} segundo{'s' if segundos > 1 else ''}")
+if days > 0:
+    parts.append(f"{days} dia{'s' if days > 1 else ''}")
+if hours > 0:
+    parts.append(f"{hours} hora{'s' if hours > 1 else ''}")
+if minutes > 0:
+    parts.append(f"{minutes} minuto{'s' if minutes > 1 else ''}")
+if seconds > 0 or not parts:
+    parts.append(f"{seconds} segundo{'s' if seconds > 1 else ''}")
 
 resultado = ""
 
-for i in range(len(partes)):
-    if i == len(partes) - 1:
-        resultado += partes[i]
-    elif i == len(partes) - 2:
-        resultado += partes[i] + " e "
+for i in range(len(parts)):
+    if i == len(parts) - 1:
+        resultado += parts[i]
+    elif i == len(parts) - 2:
+        resultado += parts[i] + " e "
     else:
-        resultado += partes[i] + ", "
+        resultado += parts[i] + ", "
 
 print(resultado)

@@ -5,18 +5,18 @@
 
 matriz = [ 1, 2, 2, 3, 4, 5, 5, 5, 6, 7, 8, 8, 8, 8, 9, 10, 10, 10, 11 ]
 
-frequencias = {}
+frequencies = {}
 
 for num in matriz:
-    if num in frequencias:
-        frequencias[num] += 1
+    if num in frequencies:
+        frequencies[num] += 1
     else:
-        frequencias[num] = 1
+        frequencies[num] = 1
 
 max_count = 0
 max_element = None
 
-for num, count in frequencias.items():
+for num, count in frequencies.items():
     if count > max_count:
         max_count = count
         max_element = num
