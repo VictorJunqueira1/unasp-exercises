@@ -15,4 +15,13 @@
 # df
 
 message = input("Insira a mensagem: ")
-code = int(input("Insira o código: "))
+code = int(input("Insira o code: "))
+
+binary_code = bin(code)[2:].zfill(len(message))
+result = ""
+
+for i in range(len(message)):
+    if binary_code[i] == "1":
+        result += message[i]
+
+print(result)
