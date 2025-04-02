@@ -18,8 +18,8 @@ Esta pasta é dedicada ao **primeiro semestre** do curso de **Sistemas de Inform
 │ ├── ... 
 ├── lista2/
 │ ├── # Segunda lista de exercícios
-├── projeto1/
-│ ├── # Primeiro projeto do semestre
+├── extra_exercises/
+│ ├── # Exercícios extras feitos no final da aula
 
 Assim sucessitavemente
 ```
